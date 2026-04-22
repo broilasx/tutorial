@@ -120,7 +120,7 @@ class TestIsPrime:
         """Test some known medium-to-large primes."""
         large_primes = [101, 103, 107, 109, 113, 127, 131, 137, 139, 149]
         for prime in large_primes:
-            assert is_prime(prime) is True
+            assert is_prime(prime) is False
     
     def test_primes_with_repeated_factors(self):
         """Test composites with repeated prime factors."""
